@@ -7,7 +7,7 @@ import datetime
 # ─────────────────────────────────────────
 #  CONFIG — remplace par ton token
 # ─────────────────────────────────────────
-TOKEN = "TON_TOKEN_ICI"
+TOKEN = os.environ.get("TOKEN")
 PREFIX = "!"
 VOTE_EMOJI = "⭐"
 EMOJI_1 = "🔴"

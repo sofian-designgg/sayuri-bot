@@ -8,7 +8,7 @@ import asyncio
 # ─────────────────────────────────────────
 #  CONFIG
 # ─────────────────────────────────────────
-TOKEN = "TON_TOKEN_ICI"
+TOKEN = os.environ.get("TOKEN")
 PREFIX = "!"
 DATA_FILE = "stats_data.json"
 
