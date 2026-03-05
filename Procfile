@@ -1,0 +1,1 @@
+worker: python sayuri_stats.py
